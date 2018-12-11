@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    tools:context=".Hard4Activity">
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="97dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logocopy" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="0dp"
+        android:layout_height="333dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/h4beethoven" />
+
+    <Button
+        android:id="@+id/btn_hard4A"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/main_button"
+        android:fontFamily="@font/playtime"
+        android:text="Ludwig van Beethoven "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView51" />
+
+    <Button
+        android:id="@+id/btn_hard4B"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/main_button"
+        android:fontFamily="@font/playtime"
+        android:text="Wolfgang A Mozart "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView51" />
+
+    <Button
+        android:id="@+id/btn_hard4C"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/main_button"
+        android:fontFamily="@font/playtime"
+        android:text="Johann S bach"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hard4A" />
+
+    <Button
+        android:id="@+id/btn_hard4D"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/main_button"
+        android:fontFamily="@font/playtime"
+        android:text="Antonio Vivaldi"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hard4B" />
+</android.support.constraint.ConstraintLayout>
